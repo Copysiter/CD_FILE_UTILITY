@@ -1,0 +1,7 @@
+### get pypi art
+# curl -u raisa:Qwerty123 'http://10.7.86.10:8081/service/rest/v1/search?repository=pypi-hosted&name=hello-world-package&version=0.1.3'
+GET http://10.7.86.10:8081/service/rest/v1/search?repository=pypi-hosted&name=hello-world-package&version=0.1.3
+Authorization: Basic raisa Qwerty123
+
+###
+

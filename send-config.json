@@ -1,0 +1,20 @@
+{
+  "port": ":8080",
+  "nfs_path": "fs:///Users/Shared/Raisa",
+  "buffer_size": "5MB",
+  "enable_chunking": true,
+  "chunking_threshold": "100000MB",
+  "chunk_size": "100MB",
+  "mode": "SEND",
+  "send_docker_enabled": true,
+  "send_docker_registry": "localhost:8082",
+  "send_docker_registry_login": "admin",
+  "send_docker_registry_password": "admin123",
+  "send_pypi_enabled": true,
+  "send_hf_enabled": true,
+  "send_nexus_url": "http://localhost:8082",
+  "send_nexus_pypi_repository": "pypi-hosted",
+  "send_nexus_hf_repository": "huggingface-hosted",
+  "send_nexus_login": "admin",
+  "send_nexus_password": "admin123"
+}

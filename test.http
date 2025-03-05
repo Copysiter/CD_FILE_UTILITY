@@ -1,0 +1,20 @@
+### cd start http
+POST http://localhost:8080/cd-start/001
+Content-Type: application/json
+
+{
+  "artifact": "https://insurance.mts.ru/d/list.pdf"
+}
+
+### config
+GET http://localhost:8080/
+
+
+### cd start pypi
+POST http://localhost:8080/cd-pypi-start
+Content-Type: application/json
+
+{
+  "package": "hello-world-package",
+  "version": "0.1.3"
+}

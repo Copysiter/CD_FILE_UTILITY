@@ -1,0 +1,22 @@
+{
+  "port": ":8081",
+  "nfs_path": "smb://ivanov-is@RSHBINTECH:PASSWORD@localhost:445/raisa",
+  "smb_share_path": ".",
+  "buffer_size": "5MB",
+  "mode": "RECEIVE",
+  "send_docker_enabled": true,
+  "send_docker_registry": "localhost:8082",
+  "send_docker_registry_login": "admin",
+  "send_docker_registry_password": "admin123",
+  "receive_docker_enabled": true,
+  "receive_docker_registry": "localhost:8083",
+  "receive_docker_registry_login": "admin",
+  "receive_docker_registry_password": "admin123",
+  "receive_pypi_enabled": true,
+  "receive_hf_enabled": true,
+  "receive_nexus_url": "http://localhost:8083",
+  "receive_nexus_pypi_repository": "pypi-hosted",
+  "receive_nexus_hf_repository": "huggingface-hosted",
+  "receive_nexus_login": "admin",
+  "receive_nexus_password": "admin123"
+}
